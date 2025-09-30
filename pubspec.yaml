@@ -1,0 +1,37 @@
+name: uop_app_v2
+description: "UOP Application - A Flutter webview application for accessing UOP services"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.0.0
+  permission_handler: ^12.0.1
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  cupertino_icons: ^1.0.8
+  # Additional useful packages
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+  image: ^4.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Additional development tools
+  flutter_gen_runner: ^5.4.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets if needed
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
