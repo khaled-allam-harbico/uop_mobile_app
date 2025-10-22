@@ -4,7 +4,8 @@ class AppConfig {
   static const String appVersion = '2.0.0';
 
   // WebView Configuration
-  static const String baseUrl = 'https://dev-uop.harbico.com:8484/login';
+  // static const String baseUrl = 'https://dev-uop.harbico.com:8484/login';
+  static const String baseUrl = 'https://uop.harbico.com/login';
   static const String userAgent = 'UOP-App/2.0';
 
   // Cookie and Storage Settings for Laravel Session Management
